@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Little pirate caravel (Merry vibes), die-cut sticker style -->
+  <g stroke="#fff" stroke-width="10" stroke-linejoin="round" paint-order="stroke">
+    <path d="M24 128h152l-14 30c-3 7-10 12-18 12H56c-8 0-15-5-18-12z" fill="#a5693a"/>
+  </g>
+  <!-- hull -->
+  <path d="M24 128h152l-14 30c-3 7-10 12-18 12H56c-8 0-15-5-18-12z" fill="#a5693a"/>
+  <path d="M28 128h144l-4 9H32z" fill="#c98a52"/>
+  <g fill="#7f4e28"><circle cx="70" cy="150" r="5"/><circle cx="100" cy="150" r="5"/><circle cx="130" cy="150" r="5"/></g>
+  <!-- figurehead -->
+  <g stroke="#fff" stroke-width="8" stroke-linejoin="round" paint-order="stroke">
+    <circle cx="172" cy="116" r="14" fill="#f6f1e6"/>
+  </g>
+  <circle cx="172" cy="116" r="14" fill="#f6f1e6"/>
+  <path d="M162 106c-6-4-8-10-6-16 6 1 10 6 10 12" fill="#e0c98f"/>
+  <path d="M182 106c6-4 8-10 6-16-6 1-10 6-10 12" fill="#e0c98f"/>
+  <circle cx="167" cy="115" r="2.4" fill="#2b2622"/><circle cx="177" cy="115" r="2.4" fill="#2b2622"/>
+  <!-- mast + sail -->
+  <path d="M100 30v98" stroke="#7f4e28" stroke-width="8" stroke-linecap="round"/>
+  <g stroke="#fff" stroke-width="8" stroke-linejoin="round" paint-order="stroke">
+    <path d="M58 44h84c-6 22-6 42 0 62H58c8-20 8-40 0-62z" fill="#f8f4ea"/>
+  </g>
+  <path d="M58 44h84c-6 22-6 42 0 62H58c8-20 8-40 0-62z" fill="#f8f4ea"/>
+  <!-- tiny jolly roger on sail -->
+  <circle cx="100" cy="68" r="11" fill="#2b2622"/>
+  <circle cx="96" cy="66" r="2.6" fill="#f8f4ea"/><circle cx="104" cy="66" r="2.6" fill="#f8f4ea"/>
+  <path d="M84 86l32 0" stroke="#2b2622" stroke-width="5" stroke-linecap="round"/>
+  <path d="M96 46c2-4 6-4 8 0" fill="none" stroke="#d94a45" stroke-width="4" stroke-linecap="round"/>
+  <!-- flag -->
+  <path d="M100 30h34l-8 8 8 8h-34z" fill="#d94a45"/>
+</svg>

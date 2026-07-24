@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112">
+  <defs>
+    <filter id="dc" x="-40%" y="-40%" width="180%" height="186%" color-interpolation-filters="sRGB">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="dl"/>
+      <feGaussianBlur in="dl" stdDeviation="1.5" result="bl"/>
+      <feComponentTransfer in="bl" result="sp"><feFuncA type="linear" slope="9" intercept="-3.2"/></feComponentTransfer>
+      <feOffset in="sp" dx="0" dy="3" result="so"/>
+      <feGaussianBlur in="so" stdDeviation="3" result="sbl"/>
+      <feFlood flood-color="#4a3340" flood-opacity="0.32" result="sfc"/>
+      <feComposite in="sfc" in2="sbl" operator="in" result="sh"/>
+      <feFlood flood-color="#ffffff" result="wfc"/>
+      <feComposite in="wfc" in2="sp" operator="in" result="bd"/>
+      <feMerge>
+        <feMergeNode in="sh"/>
+        <feMergeNode in="bd"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#dc)"><g transform="translate(22.4 22.4) scale(2.1)">
+    <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"/>
+    <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"/>
+    <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="#ffffff"/>
+  </g></g>
+</svg>

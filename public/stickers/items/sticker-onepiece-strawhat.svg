@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140">
+  <!-- Luffy's straw hat, die-cut sticker style -->
+  <g stroke="#fff" stroke-width="10" stroke-linejoin="round" paint-order="stroke">
+    <ellipse cx="100" cy="98" rx="88" ry="26" fill="#e8b64c"/>
+  </g>
+  <ellipse cx="100" cy="98" rx="88" ry="26" fill="#e8b64c"/>
+  <ellipse cx="100" cy="94" rx="88" ry="26" fill="#f2c96a"/>
+  <path d="M40 96c0-38 24-62 60-62s60 24 60 62c0 6-27 12-60 12s-60-6-60-12z" fill="#f2c96a" stroke="#fff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <path d="M40 96c0-38 24-62 60-62s60 24 60 62c0 6-27 12-60 12s-60-6-60-12z" fill="#f2c96a"/>
+  <path d="M44 84c4 5 28 9 56 9s52-4 56-9c1.5 3.8 2.6 7.8 3.2 12.1C155 101.5 130 106 100 106s-55-4.5-59.2-9.9c.6-4.3 1.7-8.3 3.2-12.1z" fill="#d94a45"/>
+  <path d="M52 66c8-18 26-28 48-28" fill="none" stroke="#e0a83e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 38c22 0 40 10 48 28" fill="none" stroke="#e0a83e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M26 100c14 6 42 10 74 10s60-4 74-10" fill="none" stroke="#d9a53f" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Three-sword style: crossed katanas, die-cut sticker style -->
+  <g stroke="#fff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" paint-order="stroke">
+    <path d="M48 40 L150 142" stroke="#fff" stroke-width="24"/>
+    <path d="M152 40 L50 142" stroke="#fff" stroke-width="24"/>
+    <path d="M100 26 L100 150" stroke="#fff" stroke-width="24"/>
+  </g>
+  <!-- vertical katana (white hilt - Wado) -->
+  <path d="M100 26 L100 118" stroke="#dfe4e8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M100 30 L100 100" stroke="#f5f8fa" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="122" r="9" fill="#d9b06a"/>
+  <path d="M100 126 L100 152" stroke="#f4efe4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M96 132l8 5m-8 6l8 5" stroke="#c9c2b2" stroke-width="2.6"/>
+  <!-- left-down katana (red hilt) -->
+  <path d="M48 40 L122 114" stroke="#dfe4e8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M52 44 L112 104" stroke="#f5f8fa" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="126" cy="118" r="9" fill="#d9b06a"/>
+  <path d="M130 122 L150 142" stroke="#c14743" stroke-width="10" stroke-linecap="round"/>
+  <!-- right-down katana (black hilt - Shusui) -->
+  <path d="M152 40 L78 114" stroke="#dfe4e8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M148 44 L88 104" stroke="#f5f8fa" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="74" cy="118" r="9" fill="#d9b06a"/>
+  <path d="M70 122 L50 142" stroke="#3a3a3f" stroke-width="10" stroke-linecap="round"/>
+  <!-- bandana knot accent -->
+  <path d="M92 166c4-5 12-5 16 0-4 5-12 5-16 0z" fill="#2f5d3f"/>
+</svg>

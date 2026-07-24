@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <!-- Log pose wrist compass, die-cut sticker style -->
+  <g stroke="#fff" stroke-width="10" stroke-linejoin="round" paint-order="stroke">
+    <path d="M20 96c0-12 10-20 24-20h112c14 0 24 8 24 20s-10 20-24 20H44c-14 0-24-8-24-20z" fill="#b0713f"/>
+  </g>
+  <path d="M20 96c0-12 10-20 24-20h112c14 0 24 8 24 20s-10 20-24 20H44c-14 0-24-8-24-20z" fill="#b0713f"/>
+  <path d="M30 96c0-8 7-13 16-13h108c9 0 16 5 16 13s-7 13-16 13H46c-9 0-16-5-16-13z" fill="#c98a52"/>
+  <g stroke="#9a5f33" stroke-width="4" stroke-linecap="round">
+    <path d="M52 84v24"/><path d="M148 84v24"/>
+  </g>
+  <!-- glass dome -->
+  <circle cx="100" cy="76" r="46" fill="#fff" opacity=".95"/>
+  <circle cx="100" cy="76" r="46" fill="none" stroke="#d9b06a" stroke-width="8"/>
+  <circle cx="100" cy="76" r="38" fill="#cfe9f2"/>
+  <path d="M74 54c8-9 20-13 32-11" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <!-- needle -->
+  <path d="M100 48l9 28-9 28-9-28z" fill="#d94a45"/>
+  <path d="M100 48l9 28h-18z" fill="#e8706b"/>
+  <circle cx="100" cy="76" r="7" fill="#3a4d59"/>
+  <circle cx="100" cy="76" r="3" fill="#cfe9f2"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <!-- Blue sticky note pinned with pushpin -->
+  <g transform="rotate(3 80 80)">
+    <path d="M22 24h120v104c0 6-22 14-30 12l-90 2z" fill="#5a7fae" opacity=".25"/>
+    <path d="M20 18h120v104c0 8-24 16-32 12H20z" fill="#a9d3ff"/>
+    <path d="M140 122c-8 8-22 12-32 12 2-10 12-18 32-12z" fill="#82b3e8"/>
+    <g stroke="#4a76a8" stroke-width="5" stroke-linecap="round">
+      <path d="M38 60h84"/>
+      <path d="M38 82h64"/>
+      <path d="M38 104h74"/>
+    </g>
+    <circle cx="80" cy="22" r="11" fill="#d94a45"/>
+    <circle cx="77" cy="19" r="4" fill="#ef8b87"/>
+    <path d="M80 33v10" stroke="#8a8f96" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

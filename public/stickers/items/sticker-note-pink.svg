@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <!-- Pink sticky note with heart doodle -->
+  <g transform="rotate(2.5 80 80)">
+    <path d="M22 24h120v104c0 6-22 14-30 12l-90 2z" fill="#c46a84" opacity=".25"/>
+    <path d="M20 18h120v104c0 8-24 16-32 12H20z" fill="#ffb9cc"/>
+    <path d="M140 122c-8 8-22 12-32 12 2-10 12-18 32-12z" fill="#ef94ad"/>
+    <circle cx="80" cy="18" r="10" fill="#d94a45"/>
+    <circle cx="80" cy="15" r="4" fill="#ef8b87"/>
+    <path d="M80 104c-18-12-30-24-30-38 0-10 8-17 17-17 6 0 10 3 13 8 3-5 7-8 13-8 9 0 17 7 17 17 0 14-12 26-30 38z" fill="#e8577c"/>
+    <g stroke="#c14066" stroke-width="4.5" stroke-linecap="round">
+      <path d="M40 122h48"/>
+    </g>
+  </g>
+</svg>

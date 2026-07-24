@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 210">
+  <!-- Wanted poster, die-cut sticker style -->
+  <g stroke="#fff" stroke-width="10" stroke-linejoin="round" paint-order="stroke">
+    <path d="M16 12h128c3 0 6 3 6 6v174c0 3-3 6-6 6H16c-3 0-6-3-6-6V18c0-3 3-6 6-6z" fill="#e9d9ae"/>
+  </g>
+  <path d="M16 12h128c3 0 6 3 6 6v174c0 3-3 6-6 6H16c-3 0-6-3-6-6V18c0-3 3-6 6-6z" fill="#e9d9ae"/>
+  <path d="M16 12h128c3 0 6 3 6 6v174c0 3-3 6-6 6H16c-3 0-6-3-6-6V18c0-3 3-6 6-6z" fill="none" stroke="#c7ab72" stroke-width="4"/>
+  <text x="80" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#4a3a20">WANTED</text>
+  <!-- photo -->
+  <rect x="28" y="52" width="104" height="82" fill="#d8c48e" stroke="#b59a60" stroke-width="3"/>
+  <circle cx="80" cy="86" r="18" fill="#4a3a20"/>
+  <path d="M52 134c4-16 15-24 28-24s24 8 28 24z" fill="#4a3a20"/>
+  <ellipse cx="80" cy="70" rx="24" ry="6" fill="#e8b64c"/>
+  <path d="M64 68c0-8 7-13 16-13s16 5 16 13z" fill="#f2c96a"/>
+  <text x="80" y="153" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="13" letter-spacing="1" fill="#4a3a20">DEAD OR ALIVE</text>
+  <text x="80" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="16" fill="#4a3a20">฿ 3,000,000,000</text>
+  <text x="80" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" letter-spacing="2" fill="#8a7448">MARINE</text>
+</svg>

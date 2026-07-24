@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <!-- Yellow sticky note with to-do doodles -->
+  <g transform="rotate(-3 80 80)">
+    <path d="M20 22h120v104c0 6-22 14-30 12l-90 2z" fill="#c9a83e" opacity=".28"/>
+    <path d="M18 18h120v104c0 8-24 16-32 12H18z" fill="#ffe27a"/>
+    <path d="M138 122c-8 8-22 12-32 12 2-10 12-18 32-12z" fill="#e8c455"/>
+    <rect x="52" y="8" width="52" height="16" rx="3" fill="#fff" opacity=".55"/>
+    <g stroke="#b3922e" stroke-width="5" stroke-linecap="round">
+      <path d="M36 52h64"/>
+      <path d="M36 76h72"/>
+      <path d="M36 100h48"/>
+    </g>
+    <path d="M112 46l6 8 12-16" fill="none" stroke="#d94a45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

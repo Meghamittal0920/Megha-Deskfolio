@@ -1,0 +1,56 @@
+/* DeskFolio ships its own styles (vendored in src/deskfolio).
+   Keep this file minimal so nothing overrides the desk scene. */
+#root {
+  min-height: 100dvh;
+}
+
+/* Full-screen desk: no page padding, stage bleeds edge to edge. */
+.page.page-deskfolio {
+  padding: 0;
+  min-height: 100dvh;
+}
+
+.page-deskfolio .deskfolio-demo-stage {
+  width: 100vw;
+  min-height: 100dvh;
+  border-radius: 0;
+  transform: translate(-50%);
+}
+
+/* Megha's photo on the about page — bigger than the stock 62px avatar. */
+.df-avatar.df-avatar--big {
+  width: 104px;
+  height: 104px;
+}
+
+.df-avatar.df-avatar--big img {
+  object-fit: cover;
+}
+
+/* --- PullCord room light ------------------------------------------------ */
+.room {
+  --pullcord-right: 3.5rem;
+  --pullcord-z: 40;
+  --pullcord-ink: rgba(46, 36, 40, 0.5);
+}
+
+.room--dark {
+  --pullcord-ink: rgba(255, 244, 214, 0.5);
+}
+
+/* Dims the whole desk when the cord is pulled — like switching the room light off. */
+.room-dim {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  background:
+    radial-gradient(120% 95% at 78% -5%, rgba(255, 214, 140, 0.1) 0%, rgba(9, 7, 16, 0) 30%),
+    radial-gradient(125% 100% at 50% 10%, rgba(9, 7, 16, 0.42) 0%, rgba(9, 7, 16, 0.66) 62%, rgba(9, 7, 16, 0.82) 100%);
+  opacity: 0;
+  transition: opacity 0.55s ease;
+}
+
+.room--dark .room-dim {
+  opacity: 1;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" width="340" height="250">
+  <!-- die-cut white sticker border -->
+  <rect x="3" y="3" width="334" height="244" rx="24" fill="#ffffff"/>
+  <!-- red tag body -->
+  <rect x="11" y="11" width="318" height="228" rx="18" fill="#e0513d"/>
+  <!-- white name band (full width; red shows as header + bottom strip) -->
+  <rect x="11" y="92" width="318" height="110" fill="#ffffff"/>
+  <!-- header lettering -->
+  <text x="170" y="62" text-anchor="middle" fill="#ffffff"
+        font-family="'Arial Black','Archivo Black','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-weight="900" font-size="48" letter-spacing="1">HELLO</text>
+  <text x="170" y="83" text-anchor="middle" fill="#ffffff"
+        font-family="Helvetica,Arial,sans-serif" font-style="italic"
+        font-weight="700" font-size="17" letter-spacing="0.5">my name is</text>
+</svg>
