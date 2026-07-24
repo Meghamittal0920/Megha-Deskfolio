@@ -2,7 +2,6 @@ import { jsxs as i, jsx as e, Fragment as et } from "react/jsx-runtime";
 import { useMemo as Qe, useState as M, useRef as z, useCallback as ne, useEffect as W, memo as $t, createContext as Ot, useId as Nt, useContext as Ht } from "react";
 import { useReducedMotion as re, motionValue as Gt, motion as Q, animate as je, useTransform as he, useMotionValue as tt, AnimatePresence as se } from "motion/react";
 import { WebHaptics as zt } from "web-haptics";
-const DF_BASE = import.meta.env.BASE_URL;
 const Ft = { type: "spring", bounce: 0.18, duration: 0.52 }, Wt = { type: "spring", bounce: 0.24, duration: 0.52 }, Vt = { type: "spring", bounce: 0.42, duration: 0.32 }, Ut = -13, at = (t, r, a) => Math.max(r, Math.min(a, t));
 function jt(t, r, a) {
   const n = [{ node: t, hard: !0 }];
@@ -484,7 +483,7 @@ function t0({ className: t = "" }) {
     const a = r.current;
     a && !a.textContent && (a.textContent = "Megha");
   }, []), /* @__PURE__ */ i("div", { className: `df-name-tag ${t}`.trim(), children: [
-    /* @__PURE__ */ e("img", { className: "df-name-tag-img", src: DF_BASE + "stickers/items/hello-name-tag.svg", alt: "", draggable: !1, decoding: "async" }),
+    /* @__PURE__ */ e("img", { className: "df-name-tag-img", src: "/stickers/items/hello-name-tag.svg", alt: "", draggable: !1, decoding: "async" }),
     /* @__PURE__ */ e(
       "div",
       {
@@ -747,12 +746,12 @@ const ke = {
   RM: { top: "42%", right: "3%" },
   BL: { bottom: "9%", left: "4%" },
   BR: { bottom: "10%", right: "3%" }
-}, B = DF_BASE + "stickers/items/", Ie = "__component:polaroid__", Se = "__component:ipod__", _e = "__component:name-tag__", ve = [
+}, B = "/stickers/items/", Ie = "__component:polaroid__", Se = "__component:ipod__", _e = "__component:name-tag__", ve = [
   {
     // matcha break desk, two clusters
     id: "journal",
     name: "Journal",
-    thumb: DF_BASE + "stickers/sticker-journal.svg",
+    thumb: "/stickers/sticker-journal.svg",
     items: [
       // matcha break anchor (top-left)
       { src: B + "sticker-matcha-cup.png", width: "clamp(70px, 15vw, 196px)", rotate: -6, pos: { top: "7%", left: "3.5%" } },
@@ -778,7 +777,7 @@ const ke = {
   {
     id: "workspace",
     name: "Workspace",
-    thumb: DF_BASE + "stickers/sticker-desk.svg",
+    thumb: "/stickers/sticker-desk.svg",
     items: [
       { src: B + "sticker-desk-9.svg", width: "clamp(72px, 17.2vw, 246px)", rotate: -8, pos: { top: "7%", right: "4.3%" }, lamp: !0 },
       // lamp
@@ -802,7 +801,7 @@ const ke = {
     // Grand Line desk: straw hat crew scatter
     id: "onepiece",
     name: "One Piece",
-    thumb: DF_BASE + "stickers/sticker-onepiece.svg",
+    thumb: "/stickers/sticker-onepiece.svg",
     items: [
       { src: B + "sticker-onepiece-strawhat.svg", width: "clamp(78px, 17vw, 240px)", rotate: -8, pos: { top: "6%", left: "3.5%" } },
       // straw hat anchor (top-left)
@@ -825,7 +824,7 @@ const ke = {
   {
     id: "stationery",
     name: "Stationery",
-    thumb: DF_BASE + "stickers/sticker-stationery.svg",
+    thumb: "/stickers/sticker-stationery.svg",
     items: [
       { src: B + "sticker-stationery-0.svg", width: "clamp(50px, 12vw, 162px)", rotate: -6, pos: ke.TL },
       // glasses
@@ -850,9 +849,9 @@ const dt = [
     (((yt = ve.find((t) => t.id === "onepiece")) == null ? void 0 : yt.items) ?? []).map((t) => t.src).filter((t) => !t.startsWith("__component:"))
     // skip component placeholders
   ),
-  DF_BASE + "stickers/devices/github-ipad.svg",
+  "/stickers/devices/github-ipad.svg",
   // dev-activity iPad shell
-  DF_BASE + "megha-profile.jpg"
+  "/megha-profile.jpg"
   // about-page avatar
 ], c0 = ["onepiece", "workspace", "journal", "stationery"].map((t) => ve.find((r) => r.id === t)).filter((t) => !!t);
 function s0({ value: t, onChange: r }) {
@@ -1108,7 +1107,7 @@ function Et({ src: t }) {
     /* @__PURE__ */ e("circle", { cx: "20", cy: "38", r: "10", fill: "#dedede", stroke: "#c8c8c8" }),
     /* @__PURE__ */ e("circle", { cx: "20", cy: "38", r: "4.2", fill: "#fff", stroke: "#d4d4d4" }),
     /* @__PURE__ */ e("path", { d: "M15 38h2.2M22.8 38H25M20 33v1.8M20 41.2v1.8", stroke: "#fff", strokeWidth: "1.4", strokeLinecap: "round" })
-  ] }) : t === _e ? /* @__PURE__ */ e("img", { className: "df-lib-name-tag", src: DF_BASE + "stickers/items/hello-name-tag.svg", alt: "", draggable: !1, loading: "lazy", decoding: "async" }) : /* @__PURE__ */ e("img", { src: t, alt: "", draggable: !1, loading: "lazy", decoding: "async" });
+  ] }) : t === _e ? /* @__PURE__ */ e("img", { className: "df-lib-name-tag", src: "/stickers/items/hello-name-tag.svg", alt: "", draggable: !1, loading: "lazy", decoding: "async" }) : /* @__PURE__ */ e("img", { src: t, alt: "", draggable: !1, loading: "lazy", decoding: "async" });
 }
 function Rt(t) {
   var r;
@@ -1745,7 +1744,7 @@ function C0({ href: t }) {
       "aria-label": "View GitHub activity",
       title: "Open GitHub · hold to move",
       children: /* @__PURE__ */ i("span", { className: "df-ipad-device", "aria-hidden": "true", children: [
-        /* @__PURE__ */ e("img", { className: "df-ipad-shell", src: DF_BASE + "stickers/devices/github-ipad.svg", alt: "", draggable: !1, decoding: "async" }),
+        /* @__PURE__ */ e("img", { className: "df-ipad-shell", src: "/stickers/devices/github-ipad.svg", alt: "", draggable: !1, decoding: "async" }),
         /* @__PURE__ */ e("span", { className: "df-ipad-screen", children: /* @__PURE__ */ i("svg", { className: "df-ipad-ui", viewBox: "0 0 264 201", preserveAspectRatio: "xMidYMid meet", "aria-hidden": "true", children: [
           /* @__PURE__ */ i("defs", { children: [
             /* @__PURE__ */ i("radialGradient", { id: "df-ui-bg", cx: "0", cy: "0", r: "1", gradientTransform: "matrix(324 0 0 231 74 0)", gradientUnits: "userSpaceOnUse", children: [
@@ -1931,7 +1930,7 @@ const Ve = (t, r, a) => [
     swatch: "#f9c5d5",
     style: {
       backgroundColor: "#f9c5d5",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 247, 226, 0.06) 0%, rgba(94, 48, 68, 0.06) 52%, rgba(94, 48, 68, 0.31) 100%), linear-gradient(rgba(235, 139, 174, 0.24), rgba(218, 119, 157, 0.3)), url('/backgrounds/pink-desk-scene.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 247, 226, 0.06) 0%, rgba(94, 48, 68, 0.06) 52%, rgba(94, 48, 68, 0.31) 100%), linear-gradient(rgba(235, 139, 174, 0.24), rgba(218, 119, 157, 0.3)), url('/backgrounds/pink-desk-scene.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1944,7 +1943,7 @@ const Ve = (t, r, a) => [
     swatch: "#eeefdc",
     style: {
       backgroundColor: "#eeefdc",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 250, 232, 0.05) 0%, rgba(72, 82, 58, 0.05) 52%, rgba(72, 82, 58, 0.24) 100%), linear-gradient(rgba(223, 226, 205, 0.18), rgba(201, 211, 188, 0.23)), url('/backgrounds/cream-botanical.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 250, 232, 0.05) 0%, rgba(72, 82, 58, 0.05) 52%, rgba(72, 82, 58, 0.24) 100%), linear-gradient(rgba(223, 226, 205, 0.18), rgba(201, 211, 188, 0.23)), url('/backgrounds/cream-botanical.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1957,7 +1956,7 @@ const Ve = (t, r, a) => [
     swatch: "#b1d4f3",
     style: {
       backgroundColor: "#b1d4f3",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 255, 244, 0.05) 0%, rgba(42, 74, 108, 0.05) 52%, rgba(42, 74, 108, 0.26) 100%), linear-gradient(rgba(112, 166, 214, 0.16), rgba(86, 146, 202, 0.22)), url('/backgrounds/sky-cloud-grid.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 255, 244, 0.05) 0%, rgba(42, 74, 108, 0.05) 52%, rgba(42, 74, 108, 0.26) 100%), linear-gradient(rgba(112, 166, 214, 0.16), rgba(86, 146, 202, 0.22)), url('/backgrounds/sky-cloud-grid.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1970,7 +1969,7 @@ const Ve = (t, r, a) => [
     swatch: "#91c7fe",
     style: {
       backgroundColor: "#91c7fe",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 252, 236, 0.05) 0%, rgba(32, 72, 112, 0.05) 52%, rgba(32, 72, 112, 0.28) 100%), linear-gradient(rgba(95, 157, 222, 0.18), rgba(70, 132, 202, 0.24)), url('/backgrounds/blue-cute-scene.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 252, 236, 0.05) 0%, rgba(32, 72, 112, 0.05) 52%, rgba(32, 72, 112, 0.28) 100%), linear-gradient(rgba(95, 157, 222, 0.18), rgba(70, 132, 202, 0.24)), url('/backgrounds/blue-cute-scene.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1984,7 +1983,7 @@ const Ve = (t, r, a) => [
     swatch: "#9d1c2e",
     style: {
       backgroundColor: "#9d1c2e",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 240, 226, 0.05) 0%, rgba(64, 12, 22, 0.08) 52%, rgba(64, 12, 22, 0.4) 100%), linear-gradient(rgba(157, 28, 46, 0.16), rgba(120, 18, 34, 0.26)), url('/backgrounds/op-red-luffy.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 240, 226, 0.05) 0%, rgba(64, 12, 22, 0.08) 52%, rgba(64, 12, 22, 0.4) 100%), linear-gradient(rgba(157, 28, 46, 0.16), rgba(120, 18, 34, 0.26)), url('/backgrounds/op-red-luffy.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1998,7 +1997,7 @@ const Ve = (t, r, a) => [
     swatch: "#1c1c1e",
     style: {
       backgroundColor: "#1c1c1e",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 236, 200, 0.05) 0%, rgba(8, 8, 10, 0.12) 52%, rgba(8, 8, 10, 0.5) 100%), linear-gradient(rgba(24, 24, 28, 0.2), rgba(12, 12, 16, 0.3)), url('/backgrounds/op-dark-luffy.webp')`,
+      backgroundImage: "radial-gradient(62% 58% at 50% 52%, rgba(255, 236, 200, 0.05) 0%, rgba(8, 8, 10, 0.12) 52%, rgba(8, 8, 10, 0.5) 100%), linear-gradient(rgba(24, 24, 28, 0.2), rgba(12, 12, 16, 0.3)), url('/backgrounds/op-dark-luffy.webp')",
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -2024,7 +2023,7 @@ const Ve = (t, r, a) => [
       return (r = /url\(['"]?([^'")]+)/.exec(String(t.style.backgroundImage ?? ""))) == null ? void 0 : r[1];
     }).filter((t) => !!t),
     ...ve.flatMap((t) => t.items.map((r) => r.src)).filter((t) => !t.startsWith("__component:")),
-    DF_BASE + "stickers/devices/github-ipad.svg"
+    "/stickers/devices/github-ipad.svg"
   ])
 ], L0 = ye.filter(
   (t) => !t.startsWith("__component:") && me.get(t) === Be[0].id
@@ -2178,7 +2177,7 @@ const A0 = (t) => /* @__PURE__ */ e("svg", { viewBox: "0 0 24 24", fill: "curren
       /* @__PURE__ */ e("span", { className: "df-heart", "aria-hidden": "true", children: "♡" })
     ] }),
     /* @__PURE__ */ i("div", { className: "df-about-head", children: [
-      /* @__PURE__ */ e("span", { className: "df-avatar df-avatar--big", children: /* @__PURE__ */ e("img", { src: DF_BASE + "megha-profile.jpg", alt: "Megha Mittal", loading: "lazy", decoding: "async" }) }),
+      /* @__PURE__ */ e("span", { className: "df-avatar df-avatar--big", children: /* @__PURE__ */ e("img", { src: "/megha-profile.jpg", alt: "Megha Mittal", loading: "lazy", decoding: "async" }) }),
       /* @__PURE__ */ i("div", { children: [
         /* @__PURE__ */ e(ue, { className: "df-name", placeholder: "your name", initial: "Megha Mittal" }),
         /* @__PURE__ */ i("span", { className: "df-role", children: [
@@ -2777,7 +2776,7 @@ function z0() {
             "img",
             {
               className: "df-howto-bear",
-              src: DF_BASE + "stickers/items/sticker-cutie-bear.svg",
+              src: "/stickers/items/sticker-cutie-bear.svg",
               width: 300,
               height: 297,
               loading: "lazy",
