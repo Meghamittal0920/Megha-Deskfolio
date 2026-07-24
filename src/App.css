@@ -10,11 +10,17 @@
   min-height: 100dvh;
 }
 
-.page-deskfolio .deskfolio-demo-stage {
-  width: 100vw;
-  min-height: 100dvh;
-  border-radius: 0;
-  transform: translate(-50%);
+/* Desktop-only full-bleed hack: the 100vw + translate(-50%) trick relies on
+   deskfolio's margin-left:50%. On phones deskfolio zeroes that margin, so the
+   translate would shove the stage half off-screen — let its own mobile layout
+   (@media max-width:760px) handle sizing instead. */
+@media (min-width: 761px) {
+  .page-deskfolio .deskfolio-demo-stage {
+    width: 100vw;
+    min-height: 100dvh;
+    border-radius: 0;
+    transform: translate(-50%);
+  }
 }
 
 /* Megha's photo on the about page — bigger than the stock 62px avatar. */
@@ -45,7 +51,7 @@
   z-index: 30;
   pointer-events: none;
   background:
-    radial-gradient(120% 95% at 78% -5%, rgba(255, 214, 140, 0.1) 0%, rgba(9, 7, 16, 0) 30%),
+    radial-gradient(120% 95% at 77% -5%, rgba(255, 214, 140, 0.1) 0%, rgba(9, 7, 16, 0) 30%),
     radial-gradient(125% 100% at 50% 10%, rgba(9, 7, 16, 0.42) 0%, rgba(9, 7, 16, 0.66) 62%, rgba(9, 7, 16, 0.82) 100%);
   opacity: 0;
   transition: opacity 0.55s ease;
@@ -53,4 +59,8 @@
 
 .room--dark .room-dim {
   opacity: 1;
+}
+
+.df-sticker-picker {
+  grid-template-columns: repeat(4, 52px) !important;
 }
