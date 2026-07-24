@@ -1931,7 +1931,7 @@ const Ve = (t, r, a) => [
     swatch: "#f9c5d5",
     style: {
       backgroundColor: "#f9c5d5",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 247, 226, 0.06) 0%, rgba(94, 48, 68, 0.06) 52%, rgba(94, 48, 68, 0.31) 100%), linear-gradient(rgba(235, 139, 174, 0.24), rgba(218, 119, 157, 0.3)), url('/backgrounds/pink-desk-scene.webp')`,
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 247, 226, 0.06) 0%, rgba(94, 48, 68, 0.06) 52%, rgba(94, 48, 68, 0.31) 100%), linear-gradient(rgba(235, 139, 174, 0.24), rgba(218, 119, 157, 0.3)), url('${DF_BASE}backgrounds/pink-desk-scene.webp')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1944,7 +1944,7 @@ const Ve = (t, r, a) => [
     swatch: "#eeefdc",
     style: {
       backgroundColor: "#eeefdc",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 250, 232, 0.05) 0%, rgba(72, 82, 58, 0.05) 52%, rgba(72, 82, 58, 0.24) 100%), linear-gradient(rgba(223, 226, 205, 0.18), rgba(201, 211, 188, 0.23)), url('/backgrounds/cream-botanical.webp')`,
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 250, 232, 0.05) 0%, rgba(72, 82, 58, 0.05) 52%, rgba(72, 82, 58, 0.24) 100%), linear-gradient(rgba(223, 226, 205, 0.18), rgba(201, 211, 188, 0.23)), url('${DF_BASE}backgrounds/cream-botanical.webp')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1957,7 +1957,7 @@ const Ve = (t, r, a) => [
     swatch: "#b1d4f3",
     style: {
       backgroundColor: "#b1d4f3",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 255, 244, 0.05) 0%, rgba(42, 74, 108, 0.05) 52%, rgba(42, 74, 108, 0.26) 100%), linear-gradient(rgba(112, 166, 214, 0.16), rgba(86, 146, 202, 0.22)), url('/backgrounds/sky-cloud-grid.webp')`,
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 255, 244, 0.05) 0%, rgba(42, 74, 108, 0.05) 52%, rgba(42, 74, 108, 0.26) 100%), linear-gradient(rgba(112, 166, 214, 0.16), rgba(86, 146, 202, 0.22)), url('${DF_BASE}backgrounds/sky-cloud-grid.webp')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1970,7 +1970,7 @@ const Ve = (t, r, a) => [
     swatch: "#91c7fe",
     style: {
       backgroundColor: "#91c7fe",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 252, 236, 0.05) 0%, rgba(32, 72, 112, 0.05) 52%, rgba(32, 72, 112, 0.28) 100%), linear-gradient(rgba(95, 157, 222, 0.18), rgba(70, 132, 202, 0.24)), url('/backgrounds/blue-cute-scene.webp')`,
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 252, 236, 0.05) 0%, rgba(32, 72, 112, 0.05) 52%, rgba(32, 72, 112, 0.28) 100%), linear-gradient(rgba(95, 157, 222, 0.18), rgba(70, 132, 202, 0.24)), url('${DF_BASE}backgrounds/blue-cute-scene.webp')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1981,10 +1981,10 @@ const Ve = (t, r, a) => [
     // Megha's One Piece wallpaper, pre-blurred
     id: "op-red",
     name: "Grand Line red",
-    swatch: "#9d1c2e",
+    swatch: "#ffffff",
     style: {
-      backgroundColor: "#9d1c2e",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 240, 226, 0.05) 0%, rgba(64, 12, 22, 0.08) 52%, rgba(64, 12, 22, 0.4) 100%), linear-gradient(rgba(157, 28, 46, 0.16), rgba(120, 18, 34, 0.26)), url('/backgrounds/op-red-luffy.webp')`,
+      backgroundColor: "#efebec",
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 252, 236, 0.05) 0%, rgba(32, 72, 112, 0.05) 52%, rgba(32, 72, 112, 0.28) 100%), linear-gradient(rgba(95, 157, 222, 0.18), rgba(70, 132, 202, 0.24)), url('${DF_BASE}backgrounds/one-piece.png')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
@@ -1998,7 +1998,7 @@ const Ve = (t, r, a) => [
     swatch: "#1c1c1e",
     style: {
       backgroundColor: "#1c1c1e",
-      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 236, 200, 0.05) 0%, rgba(8, 8, 10, 0.12) 52%, rgba(8, 8, 10, 0.5) 100%), linear-gradient(rgba(24, 24, 28, 0.2), rgba(12, 12, 16, 0.3)), url('/backgrounds/op-dark-luffy.webp')`,
+      backgroundImage: `radial-gradient(62% 58% at 50% 52%, rgba(255, 236, 200, 0.05) 0%, rgba(8, 8, 10, 0.12) 52%, rgba(8, 8, 10, 0.5) 100%), linear-gradient(rgba(24, 24, 28, 0.2), rgba(12, 12, 16, 0.3)), url('${DF_BASE}backgrounds/op-dark-luffy.webp')`,
       backgroundSize: "100% 100%, 100% 100%, cover",
       backgroundPosition: "center center, center center, center center",
       backgroundRepeat: "no-repeat, no-repeat, no-repeat",
